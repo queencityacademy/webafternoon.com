@@ -1,0 +1,75 @@
+---
+layout: default
+title: Web Afternoon
+---
+
+<section id="event-overview">
+  <div class="row">
+    <div class="highlight">
+      <h2 class="section-header">This isn&rsquo;t your ordinary Web conference.</h2>
+      <p><b>It&rsquo;s a lean and fast-paced half day event designed with value in mind.</b></p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="info-block">
+      <h3><i class="icon-bolt"></i> No Frills.</h3>
+      <p>Other events spend lots of money on stuff you don&rsquo;t care about: flowers, dramatic lighting, and finger sandwiches. They pass that cost on to you.</p>
+      <p>Not at Web Afternoon. We minimize the fluff and focus on delivering high-quality content from people in the know &mdash; at a price you can afford.</p>
+    </div>
+    <div class="info-block">
+      <h3><i class="icon-comments"></i> Top-notch Speakers</h3>
+      <p>Short talks without the ego. Great Q&A. Networking with people you really want to meet. Your tribe: people like you; people who get it.</p>
+      <p>It&rsquo;s rare for so many great people to be in one spot at the same time. New friendships form. Conversations happen. Ideas are born.</p>
+    </div>
+    <div class="info-block">
+      <h3><i class="icon-heart"></i> Love. Not Profit.</h3>
+      <p>We believe in giving back to the community. That&rsquo;s why <em>every penny</em> from our events goes straight back to help local groups groups and meet-ups.</p>
+      <p>Our previous events have generated more than $5,000 for Web and technology focused groups.  And we&rsquo;re just getting started.</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="highlight">
+      <h3>You&rsquo;re not buying a ticket to pad someone&rsquo;s wallet. You&rsquo;re supporting the community you love.</h3>
+    </div>
+  </div>
+</section>
+
+<section id="event-details">
+  <div class="speaker-list">
+    <div class="section-heading">
+      <div class="span12">
+        <h3>Speakers</h3>
+        <p>Learn from their talks and chat with them face-to-face.</p>
+      </div>
+    </div>
+    {% for speaker in site.categories['speaker'] reversed %}
+      {% include speaker-list-module.html %}
+    {% endfor %}
+  </div>
+  <div class="sponsor-list">
+    <div class="section-heading">
+      <div class="span12">
+        <h3>Sponsors</h3>
+        <p>Use their stuff. It&rsquo;s good.</p>
+      </div>
+    </div>
+    {% for sponsor in site.categories['sponsor'] %}
+      {% include sponsor-list-module.html %}
+    {% endfor %}
+  </div>
+</section>
+
+<section id="event-supplemental">
+  <div class="info-block">
+    <h3>{{ site.data.event-info.supplemental-section1-headline }}</h3>
+    <div>{{ site.data.event-info.supplemental-section1-content }}</div>
+  </div>
+  <div class="info-block">
+    <h3>{{ site.data.event-info.supplemental-section2-headline }}</h3>
+    <div>{{ site.data.event-info.supplemental-section2-content }}</div>
+  </div>
+  <div class="info-block map">
+    <a href="https://www.google.com/maps?sll=33.79149409999464,-84.39570626934439&amp;sspn=0.040125449402550535,0.08206079051220813&amp;t=m&amp;q=271+17th+Street,+Atlanta,+GA&amp;dg=opt&amp;ie=UTF8&amp;hq=&amp;hnear=271+17th+St,+Atlanta,+Georgia+30363&amp;ll=33.791494,-84.39567&amp;spn=0.146229,0.262814&amp;z=13&amp;source=embed"><img src="/img/location.png" class="img-rounded" title="Open in Google Maps"></a>
+  </div>
+</section>
+

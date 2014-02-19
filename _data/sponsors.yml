@@ -1,0 +1,7 @@
+- name: MailChimp
+  url: www.mailchimp.com
+  logo: mailchimp.png
+
+- name: Adobe
+  url: www.adobe.com
+  logo: adobe.png

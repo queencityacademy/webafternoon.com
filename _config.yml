@@ -1,0 +1,5 @@
+name: Web Afternoon
+markdown: redcarpet
+pygments: true
+
+permalink: /:categories/:title.html
