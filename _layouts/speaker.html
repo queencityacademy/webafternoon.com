@@ -5,23 +5,31 @@ layout: thin
 <div class="speaker">
   <div class="speaker-photo">
     <a href="{{ page.url }}"><img src="/img/speakers/{{ page.bio-photo }}"></a>
+  </div>
+  <div class="speaker-meta">
+    <h1 class="speaker-name">{{ page.name }}</h1>
+    <h5 class="speaker-title">{{ page.role }}{% if page.company %}, <a href="http://{{ page.company-url }}">{{ page.company }}</a>{% endif %}</h5>
     <div class="speaker-contact">
       <a class="speaker-facebook" href="https://www.facebook.com/{{ page.facebook-profile }}"><i class="fa fa-facebook-square"></i> <span>Facebook</span></a>
       <a class="speaker-twitter" href="https://twitter.com/{{ page.twitter-handle }}"><i class="fa fa-twitter-square"></i> <span>Twitter</span></a>
       <a class="speaker-link" href="http://{{ page.website-url }}"><i class="fa fa-home"></i> <span>Personal Website</span></a>
     </div>
-  </div>
-  <div class="speaker-meta">
-    <h3 class="speaker-name">{{ page.name }}</h3>
-    <h5 class="speaker-title">{{ page.role }}</h5>
-    <div class="talk-excerpt">{{ page.excerpt }}</div>
+    <hr>
+    <div class="speaker-bio">{{ page.biography }}</div>
   </div>
 </div>
 
-<h3>Talk Info</h3>
-
-<div class="timeslot">
-  <p class="start-time">{{ page.talk-start-time }}</p>
+<div class="talk-info">
+  <h3>Talk Info</h3>
+  <div class="timeslot">
+    <p class="start-time">Starts at {{ page.date | date: "%-I:%M%p" }}</p>
+  </div>
+  <div class="talk-description">
+    {{ content }}
+  </div>
 </div>
 
-{{ content }}
+<div class="local-nav">
+  <a href="/" class="btn btn-info btn-lg">See all Speakers</a>
+  <a href="/#tickets" class="btn btn-primary btn-lg">Get Your Tickets</a>
+</div>

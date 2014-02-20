@@ -7,7 +7,7 @@ name: James T. Kirk
 role: Captain
 company: Starship Enterprise
 company-url: www.starship-enterprise.com
-bio: James Tiberius "Jim" Kirk is a fictional character in the Star Trek media franchise, appearing in numerous television episodes, films, books, comics, and video games. As the captain of the starship USS Enterprise, Kirk leads his crew as they explore "where no man has gone before".
+biography: James Tiberius "Jim" Kirk is a fictional character in the Star Trek media franchise, appearing in numerous television episodes, films, books, comics, and video games. As the captain of the starship USS Enterprise, Kirk leads his crew as they explore "where no man has gone before".
 bio-photo: james-t-kirk.jpg
 facebook-profile: james-kirk
 twitter-handle: kirk
