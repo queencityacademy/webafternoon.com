@@ -55,6 +55,10 @@ Look in the `_data` directory for a file named `event-info.yml`. This is where a
 
 Just change the default info to the info for your event and save the file. Really. That's it.
 
+### Adding your CNAME
+
+Open the `CNAME` file and change *city.webafternoon.com* to use your city as the subdomain.
+
 ---
 
 ## Adding Your Speakers
