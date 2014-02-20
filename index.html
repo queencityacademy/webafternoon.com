@@ -53,7 +53,7 @@ title: Web Afternoon
         <p>Use their stuff. It&rsquo;s good.</p>
       </div>
     </div>
-    {% for sponsor in site.categories['sponsor'] %}
+    {% for sponsor in site.data.sponsors %}
       {% include sponsor-list-module.html %}
     {% endfor %}
   </div>
@@ -73,3 +73,10 @@ title: Web Afternoon
   </div>
 </section>
 
+<section id="ticket-embed">
+  <div class="ticket-form" >
+    <iframe src="https://www.eventbrite.com/tickets-external?eid={{ site.data.event-info.eventbrite-id }}&ref=etckt" frameborder="0" height="214" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe>
+    <a href="https://www.eventbrite.com/e/{{ site.data.event-info.eventbrite-url }}" class="btn btn-lg btn-primary">Get Tickets Here</a>
+  </div>
+
+</section>
