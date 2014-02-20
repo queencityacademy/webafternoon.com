@@ -4,32 +4,32 @@ title: Web Afternoon
 ---
 
 <section id="event-overview">
-  <div class="row">
-    <div class="highlight">
-      <h2 class="section-header">This isn&rsquo;t your ordinary Web conference.</h2>
-      <p><b>It&rsquo;s a lean and fast-paced half day event designed with value in mind.</b></p>
+  <div class="section-heading highlight">
+    <div class="section-heading-content">
+      <h1>Not your ordinary Web conference.</h1>
+      <h4>It&rsquo;s a lean and fast-paced half-day event designed with value in mind.</h4>
     </div>
   </div>
   <div class="row">
     <div class="info-block">
-      <h3><i class="icon-bolt"></i> No Frills.</h3>
+      <h3><i class="fa fa-bolt"></i> No Frills.</h3>
       <p>Other events spend lots of money on stuff you don&rsquo;t care about: flowers, dramatic lighting, and finger sandwiches. They pass that cost on to you.</p>
       <p>Not at Web Afternoon. We minimize the fluff and focus on delivering high-quality content from people in the know &mdash; at a price you can afford.</p>
     </div>
     <div class="info-block">
-      <h3><i class="icon-comments"></i> Top-notch Speakers</h3>
+      <h3><i class="fa fa-comments"></i> Top-notch Speakers</h3>
       <p>Short talks without the ego. Great Q&A. Networking with people you really want to meet. Your tribe: people like you; people who get it.</p>
       <p>It&rsquo;s rare for so many great people to be in one spot at the same time. New friendships form. Conversations happen. Ideas are born.</p>
     </div>
     <div class="info-block">
-      <h3><i class="icon-heart"></i> Love. Not Profit.</h3>
+      <h3><i class="fa fa-heart"></i> Love. Not Profit.</h3>
       <p>We believe in giving back to the community. That&rsquo;s why <em>every penny</em> from our events goes straight back to help local groups groups and meet-ups.</p>
       <p>Our previous events have generated more than $5,000 for Web and technology focused groups.  And we&rsquo;re just getting started.</p>
     </div>
   </div>
   <div class="row">
     <div class="highlight">
-      <h3>You&rsquo;re not buying a ticket to pad someone&rsquo;s wallet. You&rsquo;re supporting the community you love.</h3>
+      <h4>You&rsquo;re not buying a ticket to pad someone&rsquo;s wallet. You&rsquo;re supporting the community you love.</h4>
     </div>
   </div>
 </section>
@@ -37,24 +37,22 @@ title: Web Afternoon
 <section id="event-details">
   <div class="speaker-list">
     <div class="section-heading">
-      <div class="span12">
+      <div class="section-heading-content">
         <h3>Speakers</h3>
-        <p>Learn from their talks and chat with them face-to-face.</p>
       </div>
     </div>
     {% for speaker in site.categories['speaker'] reversed %}
-      {% include speaker-list-module.html %}
+    {% include speaker-list-module.html %}
     {% endfor %}
   </div>
   <div class="sponsor-list">
     <div class="section-heading">
-      <div class="span12">
+      <div class="section-heading-content">
         <h3>Sponsors</h3>
-        <p>Use their stuff. It&rsquo;s good.</p>
       </div>
     </div>
     {% for sponsor in site.data.sponsors %}
-      {% include sponsor-list-module.html %}
+    {% include sponsor-list-module.html %}
     {% endfor %}
   </div>
 </section>
@@ -73,8 +71,13 @@ title: Web Afternoon
   </div>
 </section>
 
-<section id="ticket-embed">
-  <div class="ticket-form" >
+<section id="tickets">
+  <div class="section-heading">
+    <div class="section-heading-content">
+      <h3>Get Your Tickets</h3>
+    </div>
+  </div>
+  <div class="ticket-form">
     <iframe src="https://www.eventbrite.com/tickets-external?eid={{ site.data.event-info.eventbrite-id }}&ref=etckt" frameborder="0" height="214" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe>
     <a href="https://www.eventbrite.com/e/{{ site.data.event-info.eventbrite-url }}" class="btn btn-lg btn-primary">Get Tickets Here</a>
   </div>

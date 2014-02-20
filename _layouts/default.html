@@ -21,10 +21,9 @@
     <div id="hero">
       <a href="/" class="brand"></a>
       <h1>The Event for People Who Love the Web</h1>
-      <h2>{{ site.data.event-info.date | date_to_string }} | {{site.data.event-info.venue-name }} | {{ site.data.event-info.city }}</h2>
-      <p>We&rsquo;re sold out! You can join the waitlist and we&rsquo;ll let you know if tickets become available.</p>
+      <h2>{{ site.data.event-info.date | date: "%b. %-d, %Y"  }} &#8226; {{site.data.event-info.venue-name }} &#8226; {{ site.data.event-info.city }}</h2>
     </div>
-    <a class="button red" href="/#tickets">Join the Waitlist</a>
+    <a class="btn btn-primary btn-lg" href="/#tickets">Get Your Tickets Here</a>
   </header>
   <section id="content">
     <div class="container">
@@ -36,18 +35,17 @@
 
   <footer>
     <div class="container">
-      <div class="row-fluid">
+      <div class="row">
         <div class="span12">
           <nav>
             <a href="/sponsor/">Become a Sponsor</a><span> | </span><a href="/host/">Host an Event</a><span> | </span><a href="/code-of-conduct/">Code of Conduct</a>
           </nav>
-          <p class="credits">Web Afternoon is brought to you by <a href="http://ninelabs.com">Nine Labs</a> and the <a href="http://www.awdg.org">Atlanta Web Design Group</a>.</p>
         </div>
       </div>
-      <div class="row-fluid">
-        <div class="span12 copyright">
+      <div class="row">
+        <div class="copyright">
           <a href="/"><img src="/img/logo-small.png" title="Web Afternoon"></a>
-          <p>&copy {{ site.time | date: "%Y" }} All Rights Reserved</p>
+          <p>Web Afternoon is brought to you by <a href="http://ninelabs.com">Nine Labs</a> and the <a href="http://www.awdg.org">Atlanta Web Design Group</a>. &copy {{ site.time | date: "%Y" }} All Rights Reserved</p>
         </div>
       </div>
     </div>
