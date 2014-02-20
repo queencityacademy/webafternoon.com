@@ -72,6 +72,7 @@ title: Web Afternoon
 </section>
 
 <section id="tickets">
+  {% if site.data.event-info.eventbrite-id %}
   <div class="section-heading">
     <div class="section-heading-content">
       <h3>Get Your Tickets</h3>
@@ -81,5 +82,11 @@ title: Web Afternoon
     <iframe src="https://www.eventbrite.com/tickets-external?eid={{ site.data.event-info.eventbrite-id }}&ref=etckt" frameborder="0" height="214" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe>
     <a href="https://www.eventbrite.com/e/{{ site.data.event-info.eventbrite-url }}" class="btn btn-lg btn-primary">Get Tickets Here</a>
   </div>
-
+  {% else %}
+  <div class="section-heading">
+    <div class="section-heading-content">
+      <h3>Tickets On-Sale Soon</h3>
+    </div>
+  </div>
+  {% endif %}
 </section>
