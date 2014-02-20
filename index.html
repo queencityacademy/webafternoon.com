@@ -42,7 +42,7 @@ title: Web Afternoon
       </div>
     </div>
     {% for speaker in site.categories['speaker'] reversed %}
-    {% include speaker-list-module.html %}
+      {% include speaker-list-module.html %}
     {% endfor %}
   </div>
   <div class="sponsor-list">
@@ -52,7 +52,7 @@ title: Web Afternoon
       </div>
     </div>
     {% for sponsor in site.data.sponsors %}
-    {% include sponsor-list-module.html %}
+      {% include sponsor-list-module.html %}
     {% endfor %}
   </div>
 </section>
