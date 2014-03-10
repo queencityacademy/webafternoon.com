@@ -9,7 +9,7 @@ There's really no need to setup a local environment if you don't want to. You ca
 ---
 
 ### Installing Locally
-To get running you'll need to install [Jekyll](http://jekyllrb.com/), [Bower](http://bower.io/), and [Compass](http://compass-style.org/). This assumes you already have
+To get running you'll need to install [Jekyll](http://jekyllrb.com/), [Bower](http://bower.io/), and [Compass](http://compass-style.org/). This assumes you are running OS X and already have XCode and the [command line tools](http://stackoverflow.com/questions/9329243/xcode-4-4-and-later-install-command-line-tools) installed.
 
 #### Setting up Jekyll
 
