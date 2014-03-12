@@ -32,7 +32,7 @@ Then install Bower. It depends on [Node](http://nodejs.org/) and [npm](http://np
 Move into your webafternoon.com directory and start the Jekyll server.
 
     cd webafternoon.com
-    jekyll serve -w
+    jekyll serve -w --baseurl ''
 
 Now you can view your out-of-the-box website by going to [http://localhost:4000](http://localhost:4000).
 
