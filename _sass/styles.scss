@@ -33,7 +33,7 @@ h4 {
 //////////////////////////
 
 body {
-  background: url(/img/bg-wrap.jpg) center top;
+  background: #011121 url(/img/web-afternoon-header-background.jpg) center top repeat-x;
   color: $gray-darker;
   padding:0;
   margin:0;
@@ -68,7 +68,7 @@ header {
       @include breakpoint(sm) { font-size: 1.5em; }
     }
     h2 {
-      color: darken(#fff, 20%);
+      color: #ffc;
       text-shadow: 0 1px 0 #020202;
       @include breakpoint(md) {
         font-size:1em;
@@ -81,13 +81,13 @@ header {
   }
 
   &.full {
-    background: url(/img/bg-header.jpg) no-repeat center bottom;
-    margin-bottom:2em;
+    background: url(/img/web-afternoon-charlotte-skyline.jpg) no-repeat center top;
+    margin-bottom:0;
     margin-top:0;
-    padding:3em 0 0;
+    padding:3em 0;
     text-align: center;
     .hero {
-      margin:0 auto 2em;
+      margin:0 auto;
     }
     .brand, .message, .cta {
       @include make-sm-column(12)
@@ -299,8 +299,8 @@ header {
   border-top: 2px solid #ddd;
   padding-top:2em;
   .ticket-form {
-    @include make-sm-column(12);
-    margin: 2em 0 3em;
+    // @include make-sm-column(12);
+    margin: 2em 0 0;
     iframe {
       @include breakpoint(xs) { display: none; }
     }
@@ -350,6 +350,190 @@ footer {
   }
 }
 
+////////////////////////////////////////////////////////////////////
+// Tito Tickets
+////////////////////////////////////////////////////////////////////
+.tito-wrapper {
+  // border: 1px solid #ccc;
+  // border-radius: 3px;
+  // background: #f1f1f1;
+  // font-family: sans-serif;
+  // color: #333;
+  // margin: 20px auto;
+  // max-width: 900px;
+  // padding: 10px 10px 0 10px;
+  width: 100%;
+}
+
+.tito-ticket-description {
+  font-style: italic;
+  margin-top: -5px;
+  font-size: .8em;
+}
+.tito-ticket-list {
+  display: table;
+  list-style-type: none;
+  margin: 0 0 20px 0;
+  padding: 0;
+  width: 100%;
+}
+
+#tito-previous-releases, .tito-ticket-list.tito-ticket-waitlist {
+  margin: 0;
+}
+
+.tito-ticket {
+  display: table-row;
+}
+
+.tito-ticket-name-wrapper {
+  border-bottom: 1px solid #ccc;
+  display: table-cell;
+  vertical-align: middle;
+}
+.tito-ticket-name {
+  margin-bottom: 0 !important;
+}
+
+.tito-ticket-name .label.label-default {
+  border: 1px solid #333;
+  border-radius: 2px;
+  color: #333;
+  font-size: 10px;
+  font-weight: bold;
+  margin-left: 5px;
+  padding: 2px 5px;
+  position: relative;
+  top: -1px;
+  text-transform: uppercase;
+}
+
+.tito-ticket-price-quantity-wrapper, .tito-ticket-status, .tito-ticket-status-sold-out {
+  border-bottom: 1px solid #ccc;
+  display: table-cell;
+  text-align: right;
+  vertical-align: middle;
+}
+
+.tito-ticket-price, .tito-ticket-quantity {
+  display: inline-block;
+}
+
+.tito-ticket-quantity-field {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  display: inline-block;
+  font-size: 14px;
+  height: 34px;
+  line-height: 1.42857143;
+  margin: 5px 0;
+  padding: 6px 12px;
+  text-align: center;
+  width: 45px;
+}
+
+.tito-ticket-price span {
+  display: block;
+}
+
+.tito-ticket-vat {
+  float: right;
+  font-size: 10px;
+  padding-bottom: 5px;
+}
+
+.btn.btn-default, header .cta a.btn-default, header .cta .speaker-contact a, .speaker-contact header .cta a, .speaker-contact a, .tito-ticket-status span {
+  background: #ccc;
+  border-radius: 4px;
+  color: #333;
+  display: inline-block;
+  font-size: 14px;
+  height: 34px;
+  line-height: 1.42857143;
+  margin: 5px 0;
+  padding: 6px 12px;
+  text-align: center;
+  text-decoration: none;
+  width: 100px;
+}
+
+.btn.btn-default.btn-waitlist, header .cta a.btn-default.btn-waitlist, .speaker-contact a.btn-waitlist {
+  background: #fff;
+  border: 1px solid #ccc;
+  color: #333;
+  width: 200px;
+}
+
+.btn.btn-default.btn-waitlist:hover, header .cta a.btn-default.btn-waitlist:hover, .speaker-contact a.btn-waitlist:hover {
+  border: 1px solid #333;
+}
+
+.tito-discount-code {
+  display: table-row;
+  display: none;
+}
+
+.tito-discount-code label {
+  display: table-cell;
+}
+
+.tito-discount-code .tito-discount-tabs-wrapper {
+  display: table-cell;
+}
+
+.tito-discount-code-form-wrapper {
+  display: table;
+  width: 100%;
+}
+
+.tito-submit-wrapper {
+  text-align: right;
+}
+
+.tito-submit {
+  @extend .btn;
+  @extend .btn-primary;
+  display: inline-block !important;
+}
+
+// .tito-submit {
+//   background: #fff;
+//   border: 1px solid #ccc;
+//   border-radius: 4px;
+//   color: #333;
+//   cursor: pointer;
+//   font-size: 14px;
+//   height: 34px;
+//   line-height: 1.42857143;
+//   margin: 0;
+//   padding: 6px 12px;
+//   text-align: center;
+//   width: 100px;
+// }
+
+// .tito-submit:hover {
+//   border-color: #333;
+// }
+
+.tito-ticket.tito-locked-ticket > div {
+  padding: 10px 0;
+}
+
+.tito-ticket.tito-locked-ticket label, .tito-ticket.tito-locked-ticket span {
+  opacity: .5;
+}
+
+.locked-tickets-message p {
+  font-size: 14px;
+  line-height: 1.3;
+  opacity: .5;
+}
+
+.tito-badge-link {
+  display: none;
+}
 
 // END
 ////////////////////////////////////////////////////////////////////

@@ -1,7 +1,8 @@
-- name: MailChimp
-  url: www.mailchimp.com
-  image: mailchimp.png
+- name: Cardinal Solutions
+  url: www.cardinalsolutions.com
+  image: cardinal-solutions.png
 
-- name: Adobe
-  url: www.adobe.com
-  image: adobe.png
+- name: Campaign Monitor
+  url: www.campaignmonitor.com
+  image: campaign-monitor.png
+

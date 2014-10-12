@@ -57,20 +57,6 @@ title: Web Afternoon
   </div>
 </section>
 
-<section id="event-supplemental">
-  <div class="info-block">
-    <h3>{{ site.data.event-info.supplemental-section1-headline }}</h3>
-    <div>{{ site.data.event-info.supplemental-section1-content }}</div>
-  </div>
-  <div class="info-block">
-    <h3>{{ site.data.event-info.supplemental-section2-headline }}</h3>
-    <div>{{ site.data.event-info.supplemental-section2-content }}</div>
-  </div>
-  <div class="info-block map">
-    <a href="https://www.google.com/maps?sll=33.79149409999464,-84.39570626934439&amp;sspn=0.040125449402550535,0.08206079051220813&amp;t=m&amp;q=271+17th+Street,+Atlanta,+GA&amp;dg=opt&amp;ie=UTF8&amp;hq=&amp;hnear=271+17th+St,+Atlanta,+Georgia+30363&amp;ll=33.791494,-84.39567&amp;spn=0.146229,0.262814&amp;z=13&amp;source=embed"><img src="/img/location.png" class="img-rounded" title="Open in Google Maps"></a>
-  </div>
-</section>
-
 <section id="tickets">
   <div class="section-heading">
     <div class="section-heading-content">
@@ -78,7 +64,8 @@ title: Web Afternoon
     </div>
   </div>
   <div class="ticket-form">
-    <iframe src="https://www.eventbrite.com/tickets-external?eid={{ site.data.event-info.eventbrite-id }}&ref=etckt" frameborder="0" height="214" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe>
+    <tito-widget event="queencityacademy/web-afternoon-2014"></tito-widget>
+    <!-- <iframe src="https://www.eventbrite.com/tickets-external?eid={{ site.data.event-info.eventbrite-id }}&ref=etckt" frameborder="0" height="214" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe> -->
     <a href="https://www.eventbrite.com/e/{{ site.data.event-info.eventbrite-url }}" class="btn btn-lg btn-primary">Get Tickets Here</a>
   </div>
 
