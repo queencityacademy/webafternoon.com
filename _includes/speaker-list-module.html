@@ -6,8 +6,8 @@
     <a href="{{ speaker.url }}"><img src="/img/speakers/{{ speaker.bio-photo }}"></a>
   </div>
   <div class="speaker-meta">
-    <h4 class="speaker-name"><a href="{{ speaker.url }}">{{ speaker.name }}</a></h4>
-    <h5 class="speaker-title">{{ speaker.role }}{% if speaker.company %}, <a href="http://{{ speaker.company-url }}">{{ speaker.company }}</a>{% endif %}</h5>
+    <h4 class="speaker-name"><a href="{{ speaker.url }}">{{ speaker.talk-title }}</a></h4>
+    <h5 class="speaker-title">{{speaker.name}} | {{ speaker.role }}{% if speaker.company %}, <a href="http://{{ speaker.company-url }}">{{ speaker.company }}</a>{% endif %}</h5>
     <div class="talk-excerpt">{{ speaker.content | strip_html | truncatewords:75}}</div>
   </div>
 </div>
