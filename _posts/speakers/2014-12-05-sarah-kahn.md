@@ -13,6 +13,14 @@ facebook-profile: ~
 twitter-handle: aarahkahak
 website-url: kahnlab.com
 talk-start-time: 1:00pm
-talk-title: Rapid User Testing with Social Media
-talk-description: ~
+talk-title: Harnessing Social Media for Rapid Usability Testing
+talk-description: There are many ways of performing usability tests - all of which will get you feedback, allow you to make alterations and gradually iterate until you have a solution. But these methods often take time. Let's look at an alternative process which will speed things up tenfold: leveraging social media.
 ---
+There are many ways of performing usability tests - all of which will get you feedback, allow you to make alterations and gradually iterate until you have a solution. But these methods often take time. Let's look at an alternative process which will speed things up tenfold: leveraging social media.
+
+This talk will cover:
+
+- Fitting user testing into a lean workflow
+- Recruiting customers to help and keeping them engaged
+- How to set up a test
+- Some quick dos and don'ts
