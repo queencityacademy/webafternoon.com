@@ -1,7 +1,7 @@
 ---
 layout: speaker
 category: speaker
-date: 2014-12-05 18:00:00
+date: 2014-12-05 19:30:00
 title: Bermon Painter
 name: Bermon Painter
 role: Practice Manager, Experience Design
