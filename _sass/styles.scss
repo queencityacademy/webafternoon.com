@@ -223,6 +223,8 @@ header {
   }
   .speaker-photo {
     @include make-sm-column(2);
+    max-width: 120px;
+    float: left;
     img {
       @extend .img-responsive;
       @extend .img-rounded;
