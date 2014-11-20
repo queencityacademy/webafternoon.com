@@ -38,12 +38,37 @@ title: Web Afternoon
   <div class="speaker-list">
     <div class="section-heading">
       <div class="section-heading-content">
-        <h3>Speakers</h3>
+        <h3>Schedule & Speakers</h3>
       </div>
     </div>
+
+    <div class="timeslot">
+      <p class="start-time">12:00pm</p>
+    </div>
+    <div class="speaker">
+      <div class="speaker-meta">
+        <h4 class="speaker-name">Registration</h4>
+        <h5 class="speaker-title"><a href="https://www.google.com/maps?q=35.2247,-80.8478+(Wells+Fargo+Auditorium,+430+S+Tryon+St,+Charlotte,+NC)">Wells Fargo Auditorium</h5>
+        <div class="talk-excerpt"></div>
+      </div>
+    </div>
+
     {% for speaker in site.categories['speaker'] reversed %}
       {% include speaker-list-module.html %}
     {% endfor %}
+
+    <div class="timeslot">
+      <p class="start-time">7:00pm - 9:30pm</p>
+    </div>
+    <div class="speaker">
+      <div class="speaker-meta">
+        <h4 class="speaker-name">Community Holiday Party</h4>
+        <h5 class="speaker-title"><a href="https://www.google.com/maps/place/Garage+At+Packard+Place/@35.226884,-80.846093,15z/data=!4m2!3m1!1s0x0:0xff05be5d8a6bde9c?sa=X&ei=_TNuVIm2AcbasATjlYKABQ&ved=0CIMBEPwSMAo">The Garage at Packard Place</a></h5>
+        <div class="talk-excerpt">
+          <p>For the past few years all of our Charlotte meetup and tech groups have gotten together to celebrate our fantastic tech community. Food and drink will be provided. Join us as each group will share what they have in store for 2015.</p>
+        </div>
+      </div>
+    </div>
   </div>
   <div class="sponsor-list">
     <div class="section-heading">

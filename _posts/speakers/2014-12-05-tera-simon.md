@@ -1,7 +1,7 @@
 ---
 layout: speaker
 category: speaker
-date: 2014-12-05 21:00:00
+date: 2014-12-05 21:40:00
 title: Tera Simon
 name: Tera Simon
 role: Head of Project Management

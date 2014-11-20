@@ -1,7 +1,7 @@
 ---
 layout: speaker
 category: speaker
-date: 2014-12-05 20:00:00
+date: 2014-12-05 19:00:00
 title: Doug Schepers
 name: Doug Schepers
 role: Developer Relations Lead

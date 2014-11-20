@@ -1,7 +1,7 @@
 ---
 layout: speaker
 category: speaker
-date: 2014-12-05 18:30:00
+date: 2014-12-05 18:00:00
 title: Ron Edelen
 name: Ron Edelen
 role: Co-founder

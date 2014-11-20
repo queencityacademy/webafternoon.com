@@ -1,7 +1,7 @@
 ---
 layout: speaker
 category: speaker
-date: 2014-12-05 19:00:00
+date: 2014-12-05 22:10:00
 title: John W. Long
 name: John W. Long
 role: User Experience Designer
