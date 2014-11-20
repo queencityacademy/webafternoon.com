@@ -12,7 +12,7 @@ bio-photo: ron-edelen.jpg
 facebook-profile: ~
 twitter-handle: aarahkahak
 website-url: kahnlab.com
-talk-start-time: 1:30pm
+talk-start-time: 1:00pm
 talk-title: FastPass to Badass. Techniques for designing greatness under tight deadlines.
 talk-description: ~
 ---

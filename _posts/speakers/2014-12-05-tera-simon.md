@@ -12,7 +12,7 @@ bio-photo: tera-simon.jpg
 facebook-profile: ~
 twitter-handle: tcaldsimon
 website-url: ~
-talk-start-time: 1:00pm
+talk-start-time: 4:40pm
 talk-title: "A Date is a Date: Managing Internal and External Expectations"
 talk-description: ~
 ---

@@ -12,7 +12,7 @@ bio-photo: doug-schepers.jpg
 facebook-profile: ~
 twitter-handle: shepazu
 website-url: http://schepers.cc/
-talk-start-time: ~
+talk-start-time: 2:00pm
 talk-title: "Invisible Visualization: Accessible Information Graphics on the Web"
 talk-description: 
 ---

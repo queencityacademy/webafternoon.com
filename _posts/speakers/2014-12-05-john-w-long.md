@@ -12,7 +12,7 @@ bio-photo: john-w-long.jpg
 facebook-profile: ~
 twitter-handle: johnwlong
 website-url: http://wiseheartdesign.com/
-talk-start-time: ~
+talk-start-time: 5:10pm
 talk-title: Refactoring CSS - Programming Principles for Designers
 talk-description: Over the years as designers have transitioned from print to the web we've had a reluctant relationship with code. Pixel perfection is a demanding standard. It's required us to get close to the metal and learn HTML and CSS. Some of us have transitioned well and have actually grown to love our curly-braces and semicolons, but it wasn't what we trained for.
 ---

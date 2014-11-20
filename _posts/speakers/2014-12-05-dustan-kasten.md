@@ -12,7 +12,7 @@ bio-photo: dustan-kasten.jpg
 facebook-profile: ~
 twitter-handle: iamdustan
 website-url: ~
-talk-start-time: 1:00pm
+talk-start-time: 3:20pm
 talk-title: "Building a Software Development Culture"
 talk-description: ~
 ---

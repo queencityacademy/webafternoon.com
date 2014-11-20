@@ -12,7 +12,7 @@ bio-photo: sarah-kahn.jpg
 facebook-profile: ~
 twitter-handle: aarahkahak
 website-url: kahnlab.com
-talk-start-time: 1:00pm
+talk-start-time: 1:30pm
 talk-title: Harnessing Social Media for Rapid Usability Testing
 talk-description: ~
 ---
