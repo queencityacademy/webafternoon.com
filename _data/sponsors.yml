@@ -6,3 +6,10 @@
   url: www.campaignmonitor.com
   image: campaign-monitor.png
 
+- name: Packard Place
+  url: packardplace.us
+  image: packard-place.png
+
+- name: Skookum
+  url: skookum.com
+  image: skookum.png
